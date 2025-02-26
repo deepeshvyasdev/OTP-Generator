@@ -8,6 +8,8 @@ function newotp(){
 
  otp2 =Math.floor((Math.random() +1) * 2000) ;
 
+ //to clear input-field
+document.getElementById("userinp").value = "";
 document.getElementById("otpgen").innerHTML = `OTP Generator : "${otp2}"`;
 
 }
